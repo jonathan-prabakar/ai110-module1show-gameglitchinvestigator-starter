@@ -29,8 +29,12 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+- The game's purpose is to guess a number between 1 and 100 and try to succesfully get that number
+- There was a bug with the logic behind if the number was higher or lower than the selected number. Another bug was the start game button was not working 
+- I fixed the logic behind checking the userinput if the number was higher or lower than the correct number as well as removed a function that changed type of the user input from int to string for an invalid reason
 ## 📸 Demo
 
+![alt text](image.png)
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
