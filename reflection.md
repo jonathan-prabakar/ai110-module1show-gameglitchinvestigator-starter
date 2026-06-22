@@ -1,6 +1,13 @@
 # 💭 Reflection: Game Glitch Investigator
 
-Answer each question in 3 to 5 sentences. Be specific and honest about what actually happened while you worked. This is about your process, not trying to sound perfect.
+
+# Bug reproduction log
+ | Input Used | Expected Behavior | Actual Behavior | Console Error/Output |
+ | ---------- | ----------------- | --------------- | -------------------- |
+ | 77         | Go lower          | Go higher       | none                 |
+ | 8          | go higher         | go lower        | none                 |
+ | 0          | higher            | lower           | none                 |
+
 
 <<<<<<< HEAD
 I went with 77 and then it told me to go higher every time until I reached 100 and it said go lower. I also said 99 but it said higher so the logic for that is not there at all. I then went to a way lower number at 34, but it said higher again so I ran out of attempts finding the right number. The number was then 20 which did not make sense.
